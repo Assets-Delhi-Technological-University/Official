@@ -6,9 +6,7 @@ import Instagram from "instagram-web-api"
 const Socials = () => {
   return (
     <div>
-    
-     
-    
+      
     </div>
   )
 }
