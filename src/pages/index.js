@@ -36,12 +36,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-screen min-h-screen bg-white relative">
-         {/* <Navbar/> */}
 
-         <div className="h-fit w-10/12 mx-auto">
+         <div className="h-fit text-slate-700 w-10/12 mx-auto">
              <div className="">
              <h1 className="text-center text-[2.5rem] font-bold text-[#141F2F] mx-auto tracking-[-0.02em] max-w-[740px] pt-[100px]">
-            Together we {" "}
+            Together we  {" "}
             <span ref={el} className="text-darkYellow" />
           </h1>
              </div>
