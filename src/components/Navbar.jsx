@@ -57,7 +57,7 @@ const Navbar = () => {
             <li class="mr-3">
               <a
                 class="inline-block border border-slate-950 rounded py-2 px-4 bg-slate-950 hover:bg-amber-300 text-white"
-                href="#"
+                href="/gallery"
               >
                 Gallery
               </a>
