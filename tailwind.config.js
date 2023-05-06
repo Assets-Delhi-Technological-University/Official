@@ -19,8 +19,8 @@ module.exports = {
       colors: {
         yellow: "#ffde59",
         darkYellow: "#ffbd59",
-        dark_purple: "#000235",
-        btn_primary: "#7e7ee3",
+        amber_custom: "#FACC15",
+        btn_primary: "#fdba74",
         heading_color: "#abd9d9"
       }
     },
