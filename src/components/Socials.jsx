@@ -3,69 +3,64 @@ import Instagram from "instagram-web-api";
 
 const Socials = () => {
   return (
-    <div className="font-mono bg-amber_custom text-white">
-      <div className="text-center py-10">
-        <h1 className="text-2xl text-slate-950 w-96 mx-auto leading-normal font-mono mb-12">
-          SOCIAL MEDIA HANDELS
-        </h1>
-        <div className="flex max-w-5xl mx-auto gap-8 group ">
-          <div className="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-200 cursor-pointer p-8 rounded-xl ">
-            <img src="demo.jpg" alt="" className="h-48 mx-auto" />
-            <h4 className="uppercase text-xl text-slate-950 font-bold">
-              TITLE
-            </h4>
-            <p className="text-sm text-slate-950 leading-7 my-3 font-light opacity-50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button className="bg-btn_primary text-slate-950 py-2.5 px-8 rounded-full">
-              Visit
-            </button>
-          </div>
-          <div className="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-200 cursor-pointer p-8 rounded-xl ">
-          <img src="demo.jpg" alt="" className="h-48 mx-auto" />
-            <h4 className="uppercase text-xl text-slate-950 font-bold">
-              TITLE
-            </h4>
-            <p className="text-sm leading-7 my-3 text-slate-950 font-light opacity-50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button className="bg-btn_primary text-slate-950 py-2.5 px-8 rounded-full">
-              Visit
-            </button>
-          </div>
-          <div className="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-200 cursor-pointer p-8 rounded-xl ">
-          <img src="demo.jpg" alt="" className="h-48 mx-auto " />
-            <h4 className="uppercase text-xl text-slate-950 font-bold">
-              TITLE
-            </h4>
-            <p className="text-sm leading-7 my-3 text-slate-950 font-light opacity-50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button className="bg-btn_primary text-slate-950 py-2.5 px-8 rounded-full">
-              Visit
-            </button>
-          </div>
-        </div>
-      </div>
+    <div>
+      <div className="flex h-screen pb-0">
+  <div className="m-auto">
+    <h1 className="text-8xl mb-2 justify-center ">OUR PROJECTS</h1>
+    <h1 className='text-2xl justify-center pb-0'>Some of the projects we did in the feild of Finance and Investing:</h1>
+    
+  </div>
+
+</div>
+    <div className="grid space-y-5 md:grid-cols-3 gap-4 sm:grid-cols-1 mx-2 lg:gap-0 text-black justify-item-center pb-24 pt-0">
+      
+    <div className="w-4xl p-4 h-4xl bg-white border-l-2 border-black font">
+      <h2 className="p-4 text-2xl">MARCH 18,2023</h2>
+      <h1 className="p-4 text-5xl hover:text-yellow">FINBOOK</h1>
+      <p className="p-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+        quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+        nihil.</p>
+        <a href="#">
+      <div className="mt-8 p-4 inline-flex items-center gap-2 text-black sm:mt-12 lg:mt-16">
+   <p className="font-medium sm:text-lg">READ</p>
+   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-all group-hover:ms-3 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+   </svg>
+ </div></a>
     </div>
+
+    <div className="w-4xl p-4 h-4xl bg-white border-l-2 border-black font">
+      <h2 className="p-4 text-2xl">MARCH 18,2023</h2>
+      <h1 className="p-4 text-5xl hover:text-yellow">FINBOOK</h1>
+      <p className="p-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+        quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+        nihil.</p>
+        <a href="#">
+      <div className="mt-8 p-4 inline-flex items-center gap-2 text-black sm:mt-12 lg:mt-16">
+   <p className="font-medium sm:text-lg">READ</p>
+   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-all group-hover:ms-3 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+   </svg>
+ </div></a>
+    </div>
+
+    <div className="w-4xl p-4 h-4xl bg-white border-l-2 border-black font">
+      <h2 className="p-4 text-2xl">MARCH 18,2023</h2>
+      <h1 className="p-4 text-5xl hover:text-yellow">FINBOOK</h1>
+      <p className="p-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+        quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+        nihil.</p>
+        <a href="#">
+      <div className="mt-8 p-4 inline-flex items-center gap-2 text-black sm:mt-12 lg:mt-16">
+   <p className="font-medium sm:text-lg">READ</p>
+   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-all group-hover:ms-3 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+   </svg>
+ </div></a>
+    </div>
+  </div>
+       
+  </div>
   );
 };
 

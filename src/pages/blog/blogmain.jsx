@@ -13,10 +13,7 @@ export default function Blogmain() {
   <h1 className="text-5xl text-center w-96 max-auto leading-normal font-bold mb-12">
     <span>“</span> Blog <span>”</span>
   </h1>
-  <p className="text-3xl">
-    awesome place to make oneself <br /> productive and entertained through
-    daily updates.
-  </p>
+  
 </header></div>
         <div className="text-center text-black py-10">
           <div className="flex max-w-7xl h-96 mx-auto gap-8 group">

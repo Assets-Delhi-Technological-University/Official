@@ -39,19 +39,19 @@ export default function Home() {
 
          <div className="h-fit text-slate-700 w-10/12 mx-auto">
              <div className="">
-             <h1 className="text-center text-[2.5rem] font-bold text-[#141F2F] mx-auto tracking-[-0.02em] max-w-[740px] pt-[100px]">
+             <h1 className="text-center text-[3.5rem] font-bold text-[#141F2F] mx-auto tracking-[-0.02em] max-w-[740px] pt-[100px]">
             Together we  {" "}
             <span ref={el} className="text-darkYellow" />
           </h1>
              </div>
 
              <Intro/>
-
+              
              <Socials/>
-
+             <Footer/>
              
          </div>
-         {/* <Footer/> */}
+         
       </div>
     </>
   )

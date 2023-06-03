@@ -7,7 +7,7 @@ export default function gallery() {
     
   return (
     <>
-      <div className="min-h-screen max-h-fit bg-black">
+      <div className="min-h-screen max-h-fit bg-yellow p-4 pt-[12px]">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
   <div className="grid gap-4">
     <div>
