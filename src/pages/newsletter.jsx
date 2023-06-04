@@ -31,7 +31,7 @@ export default function newsletter() {
         <Carousel  responsive={responsive}>
         <div className="grid grid-cols-2 rounded-[40px] bg-yellow justify-center opacity-85 py-12 p-8 h-[600px] w-4/5 m-8  ">
           <div className="justify-center">
-            <img src="demog.jpg" className="h-3/4 w-3/4 py-8 px-8 justify-items-center rounded-t-full rounded-b-md "></img>
+            <img src="demog.jpg" className="aspect-auto h-3/4 w-3/4 py-8 px-8 justify-items-center rounded-t-full rounded-b-md "></img>
           </div>
           <div className="text-black justify-center">
           

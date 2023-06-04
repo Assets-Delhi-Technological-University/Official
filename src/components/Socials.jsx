@@ -6,8 +6,8 @@ const Socials = () => {
     <div>
       <div className="flex h-screen pb-0">
   <div className="m-auto">
-    <h1 className="text-8xl mb-2 justify-center ">OUR PROJECTS</h1>
-    <h1 className='text-2xl justify-center pb-0'>Some of the projects we did in the feild of Finance and Investing:</h1>
+    <h1 className="sm:text-8xl text-4xl mb-2 justify-center">OUR PROJECTS</h1>
+    <h1 className='text-xl sm:3xl sm:p-4 justify-center pb-0'>Some of the projects we did in the feild of Finance and Investing:</h1>
     
   </div>
 

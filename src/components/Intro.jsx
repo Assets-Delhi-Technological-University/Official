@@ -16,7 +16,7 @@ const Intro = () => {
 
             <div>
                 <img
-                className="aspect-auto mx-auto max-w-[500px]  md:w-[500px] sm:w-[400px]"
+                className="aspect-auto mx-auto max-w-[500px] px-4 md:w-[400px] w-[300px] sm:w-[200px]"
                     src="team.png"
                 />
             </div>
