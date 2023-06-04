@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@appnest/masonry-layout": "^2.0.8",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "instagram-web-api": "^2.2.2",
