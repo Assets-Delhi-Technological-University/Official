@@ -39,7 +39,7 @@ const Socials = () => {
           </h1>
         </div>
       </div>
-      <div className="grid space-y-5 md:grid-cols-2 gap-4 sm:grid-cols-1 mx-2 lg:gap-3 text-black justify-item-center pb-24 ">
+      <div className="grid space-y-5 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:grid-cols-1 mx-2 lg:gap-3 text-black justify-item-center pb-24 ">
         
         
         {

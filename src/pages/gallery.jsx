@@ -8,8 +8,8 @@ export default function gallery() {
   return (
     <>
       <div className="min-h-screen bg-white max-h-fit p-4 pt-[12px]">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-  <div className="grid gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4  mt-32">
+  <div className="grid gap-4 ">
     <div>
       <img
         className="h-auto max-w-full rounded-lg"
