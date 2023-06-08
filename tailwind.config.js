@@ -11,13 +11,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Poppins: "Poppins",
+        Poppins: 'Space Grotesk',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       colors: {
-        yellow: "#ffde59",
+        yellow: "#F6D459",
         darkYellow: "#ffbd59",
         amber_custom: "#FACC15",
         btn_primary: "#fdba74",

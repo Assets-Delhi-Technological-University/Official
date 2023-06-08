@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@appnest/masonry-layout": "^2.0.8",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "instagram-web-api": "^2.2.2",
@@ -17,7 +18,10 @@
     "next": "^13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.8.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23",
     "typed.js": "^2.0.15"
   },
   "devDependencies": {
