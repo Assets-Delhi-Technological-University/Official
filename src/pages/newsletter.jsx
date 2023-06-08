@@ -2,6 +2,9 @@ import react, { Component } from "react";
 import reactDom from "react-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Link from 'next/link'
+import Image from 'next/image'
+
 
 const responsive = {
   superLargeDesktop: {
@@ -57,10 +60,10 @@ export default function newsletter() {
             key = {item.key}
             className="grid grid-cols-1 md:grid-cols-2 rounded-3xl bg-yellow justify-center opacity-85 py-6 p-8 h-fit md:h-[500px] w-4/5 mx-auto  ">
               <div className="justify-center">
-                <img
+                <Image
                   src="demog.jpg"
                   className="aspect-auto  md:h-3/4 md:w-3/4 p-4 justify-items-center rounded-t-full rounded-b-md m-auto"
-                ></img>
+                />
               </div>
               <div className="text-black justify-center">
                 <h1 className="text-4xl p-4">{item.title}</h1>
@@ -80,7 +83,7 @@ export default function newsletter() {
                 <p className="text-lg md:text-xl p-4">
                  {item.description}
                 </p>
-                <a href="#">
+                <Link href="#">
                   <div className="mt-4 p-4 inline-flex items-center gap-2 text-black sm:mt-12 lg:mt-16">
                     <p className="font-medium sm:text-lg">READ</p>
                     <svg
@@ -98,7 +101,7 @@ export default function newsletter() {
                       />
                     </svg>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

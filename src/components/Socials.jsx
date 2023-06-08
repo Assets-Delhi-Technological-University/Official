@@ -1,5 +1,7 @@
 import React from "react";
 import Instagram from "instagram-web-api";
+import Link from 'next/link'
+
 
 const Socials = () => {
 
@@ -52,7 +54,7 @@ const Socials = () => {
           <p className="p-4 text-xl">
             {item.description}
           </p>
-          <a href="#">
+          <Link href="#">
             <div className="mt-8 p-4 inline-flex items-center gap-2 text-black sm:mt-12 lg:mt-16">
               <p className="font-medium sm:text-lg">READ</p>
               <svg
@@ -70,7 +72,7 @@ const Socials = () => {
                 />
               </svg>
             </div>
-          </a>
+          </Link>
         </div>
         ))}
         

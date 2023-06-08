@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import Link from "next/link";
+
 
 const Navbar = () => {
   const router = useRouter();
@@ -47,12 +49,12 @@ const Navbar = () => {
           >
             {Links.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                <a
+                <Link 
                   href={link.link}
                   className="w-50 inline-block rounded-full  py-2 px-4 bg-white text-black hover:bg-yellow hover:text-white"
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

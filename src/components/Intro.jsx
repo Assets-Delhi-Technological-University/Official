@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const Intro = () => {
   return (
@@ -15,7 +17,7 @@ const Intro = () => {
             </div>
 
             <div>
-                <img
+                <Image
                 className="aspect-auto mx-auto max-w-[500px] px-4 md:w-[400px] w-[300px] sm:w-[200px]"
                     src="team.png"
                 />
