@@ -19,7 +19,9 @@ const Intro = () => {
             <div>
                 <Image
                 className="aspect-auto mx-auto max-w-[500px] px-4 md:w-[400px] w-[300px] sm:w-[200px]"
-                    src="team.png"
+                    src="/team.png"
+                    width={300}
+                    height={300}
                 />
             </div>
         </div>

@@ -7,12 +7,13 @@ import Link from "next/link";
 const Navbar = () => {
   const router = useRouter();
   let Links = [
-    { name: "Blogs", link: "/blog/blogmain" },
+    // { name: "Blogs", link: "/blog/blogmain" },
+    { name: "Home", link: "/"},
     { name: "Newsletters", link: "/newsletter" },
-    { name: "Projects", link: "#" },
+    // { name: "Projects", link: "#" },
     { name: "Gallery", link: "/gallery" },
     { name: "Team", link: "#" },
-    { name: "Contact Us", link: "#" },
+    // { name: "Contact Us", link: "#" },
   ];
   // sticky top-0 w-full flex items-center justify-between flex-wrap bg-white p-6
   let [open, setOpen] = useState(false);

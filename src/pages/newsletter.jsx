@@ -53,7 +53,7 @@ export default function newsletter() {
 
   return (
     <>
-      <div className="min-h-screen max-h-fit bg-white grid grid-cols-1 gap-4 justify-center font-poppins  ">
+      <div className="min-h-screen md:pt-28 pt-28 max-h-fit bg-white grid grid-cols-1 gap-4 justify-center font-poppins  ">
         <Carousel responsive={responsive}>
           {data.map((item) => (
             <div 
@@ -61,7 +61,9 @@ export default function newsletter() {
             className="grid grid-cols-1 md:grid-cols-2 rounded-3xl bg-yellow justify-center opacity-85 py-6 p-8 h-fit md:h-[500px] w-4/5 mx-auto  ">
               <div className="justify-center">
                 <Image
-                  src="demog.jpg"
+                  src="/demog.jpg"
+                  width={500}
+                  height={500}
                   className="aspect-auto  md:h-3/4 md:w-3/4 p-4 justify-items-center rounded-t-full rounded-b-md m-auto"
                 />
               </div>
